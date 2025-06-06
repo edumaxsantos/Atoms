@@ -1,0 +1,1 @@
+my_camera_src = files('my_camera.cpp')
