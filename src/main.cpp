@@ -117,9 +117,7 @@ int main()
             auto element = elements.at(i);
             ElementRenderData data = renderData.at(i);
             //auto x = static_cast<float>(element.getAtomicNumber()) + (element.getAtomicRadius() / 100) * i;
-            auto spherePosition = positions.at(i);
             element.draw();
-            //drawElement(&element, spherePosition, elementColors.at(i));
             //drawElementBillboard(myCam->getCamera(), &data, Vector3Add(spherePosition, Vector3{0, 1.5, 0}));
         }
 
