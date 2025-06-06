@@ -4,6 +4,12 @@ project('chemistry', 'cpp',
 
 subdir('src')
 
+configure_file(
+        input: 'elements.json',
+        output: 'elements.json',
+        copy: true
+)
+
 raylib_dep = dependency('raylib', required: true)
 nlohmann_dep = dependency('nlohmann_json')
 executable('chemistry', src_files, 

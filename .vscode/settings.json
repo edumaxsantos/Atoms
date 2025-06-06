@@ -1,5 +1,5 @@
 {
-    "C_Cpp.default.compileCommands": "/home/max/projects/c/meson-test/builddir/compile_commands.json",
+    "C_Cpp.default.compileCommands": "/home/max/projects/c/chemistry/builddir/compile_commands.json",
     "C_Cpp.default.configurationProvider": "mesonbuild.mesonbuild",
     "files.associations": {
         "vector": "cpp",
